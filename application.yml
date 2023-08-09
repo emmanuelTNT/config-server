@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: default  # Perfil activo por defecto
+
+---
+# Configuración para el perfil 'default'
+server:
+  port: 8080
